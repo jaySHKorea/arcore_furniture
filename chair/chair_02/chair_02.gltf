@@ -2,43 +2,47 @@
    "accessors" : [
       {
          "bufferView" : 0,
+         "byteOffset" : 0,
          "componentType" : 5123,
-         "count" : 1344,
-         "max" : [ 1343 ],
+         "count" : 360,
+         "max" : [ 359 ],
          "min" : [ 0 ],
          "name" : "buffer-0-accessor-indices-buffer-0-mesh-0",
          "type" : "SCALAR"
       },
       {
          "bufferView" : 2,
+         "byteOffset" : 0,
          "componentType" : 5126,
-         "count" : 1344,
-         "max" : [ 75.65616607666016, 75.65615844726562, 270.600341796875 ],
-         "min" : [ -75.65616607666016, -75.65615844726562, 0 ],
+         "count" : 360,
+         "max" : [ 2.787997007369995, 12.77813053131104, 2.567847013473511 ],
+         "min" : [ -2.787997007369995, 0, -2.518685102462769 ],
          "name" : "buffer-0-accessor-position-buffer-0-mesh-0",
          "type" : "VEC3"
       },
       {
          "bufferView" : 2,
-         "byteOffset" : 16128,
+         "byteOffset" : 4320,
          "componentType" : 5126,
-         "count" : 1344,
-         "max" : [ 1, 1, 1 ],
-         "min" : [ -1, -1, -1 ],
+         "count" : 360,
+         "max" : [ 0.9986410140991211, 1, 1 ],
+         "min" : [ -0.9985399842262268, -1, -1 ],
          "name" : "buffer-0-accessor-normal-buffer-0-mesh-0",
          "type" : "VEC3"
       },
       {
          "bufferView" : 1,
+         "byteOffset" : 0,
          "componentType" : 5126,
-         "count" : 1344,
-         "max" : [ 1, 0 ],
-         "min" : [ 0, -1 ],
+         "count" : 360,
+         "max" : [ 0.8960009813308716, 0 ],
+         "min" : [ 0, -0.9944400191307068 ],
          "name" : "buffer-0-accessor-texcoord-buffer-0-mesh-0",
          "type" : "VEC2"
       },
       {
          "bufferView" : 3,
+         "byteOffset" : 0,
          "componentType" : 5126,
          "count" : 0,
          "max" : [ 0, 0, 0, 0 ],
@@ -54,23 +58,24 @@
    "bufferViews" : [
       {
          "buffer" : 0,
-         "byteLength" : 2688,
+         "byteLength" : 720,
+         "byteOffset" : 0,
          "byteStride" : 0,
          "name" : "buffer-0-bufferview-ushort",
          "target" : 34963
       },
       {
          "buffer" : 0,
-         "byteLength" : 10752,
-         "byteOffset" : 2688,
+         "byteLength" : 2880,
+         "byteOffset" : 720,
          "byteStride" : 8,
          "name" : "buffer-0-bufferview-vec2",
          "target" : 34962
       },
       {
          "buffer" : 0,
-         "byteLength" : 32256,
-         "byteOffset" : 13440,
+         "byteLength" : 8640,
+         "byteOffset" : 3600,
          "byteStride" : 12,
          "name" : "buffer-0-bufferview-vec3",
          "target" : 34962
@@ -78,22 +83,35 @@
       {
          "buffer" : 0,
          "byteLength" : 1,
+         "byteOffset" : 0,
          "name" : "buffer-0-bufferview-vec4"
       }
    ],
    "buffers" : [
       {
-         "byteLength" : 45696,
+         "byteLength" : 12240,
          "name" : "buffer-0",
-         "uri" : "Stool_01(1).bin"
+         "uri" : "Chair.bin"
+      }
+   ],
+   "images" : [
+      {
+         "mimeType" : "image/png",
+         "name" : "blinn1SG-image",
+         "uri" : "Chair_BaseColor.png"
       }
    ],
    "materials" : [
       {
+         "alphaMode" : "OPAQUE",
          "doubleSided" : true,
-         "name" : "blinn10SG",
+         "name" : "blinn1SG",
          "pbrMetallicRoughness" : {
-            "baseColorFactor" : [ 0.19, 0.09, 0.06, 1 ],
+            "baseColorFactor" : [ 1, 1, 1, 1 ],
+            "baseColorTexture" : {
+               "index" : 0,
+               "texCoord" : 0
+            },
             "metallicFactor" : 0,
             "roughnessFactor" : 0.9699476628648295
          }
@@ -110,7 +128,8 @@
                   "TEXCOORD_0" : 3
                },
                "indices" : 0,
-               "material" : 0
+               "material" : 0,
+               "mode" : 4
             }
          ]
       }
@@ -121,10 +140,24 @@
          "name" : "node-0"
       }
    ],
+   "samplers" : [
+      {
+         "name" : "blinn1SG-sampler",
+         "wrapS" : 10497,
+         "wrapT" : 10497
+      }
+   ],
    "scenes" : [
       {
          "name" : "scene-0",
          "nodes" : [ 0 ]
+      }
+   ],
+   "textures" : [
+      {
+         "name" : "blinn1SG-texture",
+         "sampler" : 0,
+         "source" : 0
       }
    ]
 }

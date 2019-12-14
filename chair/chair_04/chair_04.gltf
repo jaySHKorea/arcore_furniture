@@ -4,8 +4,8 @@
          "bufferView" : 0,
          "byteOffset" : 0,
          "componentType" : 5123,
-         "count" : 360,
-         "max" : [ 359 ],
+         "count" : 696,
+         "max" : [ 695 ],
          "min" : [ 0 ],
          "name" : "buffer-0-accessor-indices-buffer-0-mesh-0",
          "type" : "SCALAR"
@@ -14,19 +14,19 @@
          "bufferView" : 2,
          "byteOffset" : 0,
          "componentType" : 5126,
-         "count" : 360,
-         "max" : [ 2.787997007369995, 12.77813053131104, 2.567847013473511 ],
-         "min" : [ -2.787997007369995, 0, -2.518685102462769 ],
+         "count" : 696,
+         "max" : [ 2.284162998199463, 9.925458908081055, 2.492489099502563 ],
+         "min" : [ -3.234945058822632, 0, -2.492486953735352 ],
          "name" : "buffer-0-accessor-position-buffer-0-mesh-0",
          "type" : "VEC3"
       },
       {
          "bufferView" : 2,
-         "byteOffset" : 4320,
+         "byteOffset" : 8352,
          "componentType" : 5126,
-         "count" : 360,
-         "max" : [ 0.9986410140991211, 1, 1 ],
-         "min" : [ -0.9985399842262268, -1, -1 ],
+         "count" : 696,
+         "max" : [ 0.9980999827384949, 1, 1 ],
+         "min" : [ -1, -1, -1 ],
          "name" : "buffer-0-accessor-normal-buffer-0-mesh-0",
          "type" : "VEC3"
       },
@@ -34,9 +34,59 @@
          "bufferView" : 1,
          "byteOffset" : 0,
          "componentType" : 5126,
-         "count" : 360,
-         "max" : [ 0.8960009813308716, 0 ],
-         "min" : [ 0, -0.9944400191307068 ],
+         "count" : 0,
+         "max" : [ 0, 0 ],
+         "min" : [ 0, 0 ],
+         "name" : "buffer-0-accessor-texcoord-buffer-0-mesh-0",
+         "type" : "VEC2"
+      },
+      {
+         "bufferView" : 3,
+         "byteOffset" : 0,
+         "componentType" : 5126,
+         "count" : 0,
+         "max" : [ 0, 0, 0, 0 ],
+         "min" : [ 0, 0, 0, 0 ],
+         "name" : "buffer-0-accessor-color-buffer-0-mesh-0",
+         "type" : "VEC4"
+      },
+      {
+         "bufferView" : 0,
+         "byteOffset" : 1392,
+         "componentType" : 5123,
+         "count" : 240,
+         "max" : [ 239 ],
+         "min" : [ 0 ],
+         "name" : "buffer-0-accessor-indices-buffer-0-mesh-0",
+         "type" : "SCALAR"
+      },
+      {
+         "bufferView" : 2,
+         "byteOffset" : 16704,
+         "componentType" : 5126,
+         "count" : 240,
+         "max" : [ 2.110413074493408, 5.105422973632812, 2.076978921890259 ],
+         "min" : [ -1.763681054115295, 0, -2.076978921890259 ],
+         "name" : "buffer-0-accessor-position-buffer-0-mesh-0",
+         "type" : "VEC3"
+      },
+      {
+         "bufferView" : 2,
+         "byteOffset" : 19584,
+         "componentType" : 5126,
+         "count" : 240,
+         "max" : [ 0.8431000113487244, 1, 0.718999981880188 ],
+         "min" : [ -0.6922000050544739, 0, -0.718999981880188 ],
+         "name" : "buffer-0-accessor-normal-buffer-0-mesh-0",
+         "type" : "VEC3"
+      },
+      {
+         "bufferView" : 1,
+         "byteOffset" : 0,
+         "componentType" : 5126,
+         "count" : 0,
+         "max" : [ 0, 0 ],
+         "min" : [ 0, 0 ],
          "name" : "buffer-0-accessor-texcoord-buffer-0-mesh-0",
          "type" : "VEC2"
       },
@@ -58,7 +108,7 @@
    "bufferViews" : [
       {
          "buffer" : 0,
-         "byteLength" : 720,
+         "byteLength" : 1872,
          "byteOffset" : 0,
          "byteStride" : 0,
          "name" : "buffer-0-bufferview-ushort",
@@ -66,16 +116,14 @@
       },
       {
          "buffer" : 0,
-         "byteLength" : 2880,
-         "byteOffset" : 720,
-         "byteStride" : 8,
-         "name" : "buffer-0-bufferview-vec2",
-         "target" : 34962
+         "byteLength" : 1,
+         "byteOffset" : 0,
+         "name" : "buffer-0-bufferview-vec2"
       },
       {
          "buffer" : 0,
-         "byteLength" : 8640,
-         "byteOffset" : 3600,
+         "byteLength" : 22464,
+         "byteOffset" : 1872,
          "byteStride" : 12,
          "name" : "buffer-0-bufferview-vec3",
          "target" : 34962
@@ -89,31 +137,30 @@
    ],
    "buffers" : [
       {
-         "byteLength" : 12240,
+         "byteLength" : 24336,
          "name" : "buffer-0",
-         "uri" : "Chair.bin"
-      }
-   ],
-   "images" : [
-      {
-         "mimeType" : "image/png",
-         "name" : "blinn1SG-image",
-         "uri" : "Chair_BaseColor.png"
+         "uri" : "Chair_01.bin"
       }
    ],
    "materials" : [
       {
          "alphaMode" : "OPAQUE",
          "doubleSided" : true,
-         "name" : "blinn1SG",
+         "name" : "795548",
          "pbrMetallicRoughness" : {
-            "baseColorFactor" : [ 1, 1, 1, 1 ],
-            "baseColorTexture" : {
-               "index" : 0,
-               "texCoord" : 0
-            },
+            "baseColorFactor" : [ 0.47451, 0.333333, 0.282353, 1 ],
             "metallicFactor" : 0,
-            "roughnessFactor" : 0.9699476628648295
+            "roughnessFactor" : 0.7448017359246658
+         }
+      },
+      {
+         "alphaMode" : "OPAQUE",
+         "doubleSided" : true,
+         "name" : "DD9944",
+         "pbrMetallicRoughness" : {
+            "baseColorFactor" : [ 0.866667, 0.6, 0.266667, 1 ],
+            "metallicFactor" : 0,
+            "roughnessFactor" : 0.7448017359246658
          }
       }
    ],
@@ -130,6 +177,16 @@
                "indices" : 0,
                "material" : 0,
                "mode" : 4
+            },
+            {
+               "attributes" : {
+                  "NORMAL" : 7,
+                  "POSITION" : 6,
+                  "TEXCOORD_0" : 8
+               },
+               "indices" : 5,
+               "material" : 1,
+               "mode" : 4
             }
          ]
       }
@@ -140,24 +197,10 @@
          "name" : "node-0"
       }
    ],
-   "samplers" : [
-      {
-         "name" : "blinn1SG-sampler",
-         "wrapS" : 10497,
-         "wrapT" : 10497
-      }
-   ],
    "scenes" : [
       {
          "name" : "scene-0",
          "nodes" : [ 0 ]
-      }
-   ],
-   "textures" : [
-      {
-         "name" : "blinn1SG-texture",
-         "sampler" : 0,
-         "source" : 0
       }
    ]
 }
